@@ -10,7 +10,7 @@
   <ItemGroup>
     <PackageReference Include="Ardalis.Specification" Version="9.2.0" />
     <PackageReference Include="MediatR" Version="12.5.0" />
-    <PackageReference Include="TIKSN-Framework" Version="5.4.4" />
+    <PackageReference Include="TIKSN-Framework" Version="5.5.0" />
   </ItemGroup>
 
 </Project>
