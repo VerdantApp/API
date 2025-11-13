@@ -1,0 +1,25 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/API.Core/API.Core.csproj" />
+    <Project Path="src/API.Infrastructure/API.Infrastructure.csproj" />
+    <Project Path="src/API.SharedKernel/API.SharedKernel.csproj" />
+    <Project Path="src/API.Web/API.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/API.FunctionalTests/API.FunctionalTests.csproj">
+      <BuildDependency Project="src/API.Web/API.Web.csproj" />
+    </Project>
+    <Project Path="tests/API.IntegrationTests/API.IntegrationTests.csproj">
+      <BuildDependency Project="src/API.Infrastructure/API.Infrastructure.csproj" />
+    </Project>
+    <Project Path="tests/API.UnitTests/API.UnitTests.csproj" />
+  </Folder>
+</Solution>
