@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Ardalis.Specification" Version="9.3.1" />
+    <PackageReference Include="Autofac" Version="9.0.0" />
     <PackageReference Include="MediatR" Version="13.1.0" />
     <PackageReference Include="TIKSN-Framework" Version="5.5.2" />
   </ItemGroup>
